@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Allan Nielsen</Authors>
+    <Company>Hybrid Solution</Company>
+    <Description>Set of common classes for use in solutions requiring CQRS, Mediator and Domain events</Description>
+    <Copyright>Copyright (c) 2021  all rights reserved</Copyright>
+    <NeutralLanguage>english</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.5.0" />
+    <PackageReference Include="mediatr" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
